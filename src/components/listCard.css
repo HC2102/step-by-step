@@ -1,0 +1,11 @@
+.list-card {
+  margin: 20px 0 20px 0;
+}
+.list-card .card {
+  margin: 10px 0 10px 0;
+}
+.list-card .card img {
+  height: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}

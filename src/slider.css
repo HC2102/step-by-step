@@ -1,0 +1,23 @@
+.slide-section {
+  margin: 20px 0 20px 0;
+}
+.slide-section .carousel img {
+  height: 150px;
+  object-fit: cover;
+}
+.slide-section .dropdown {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .slide-list {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .slide-section .dropdown {
+    display: block;
+  }
+  .slide-section .list-group {
+    display: none;
+  }
+}
